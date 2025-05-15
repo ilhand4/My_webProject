@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>İlhan Dalçek | Giriş</title>
+
+  <!-- Bootstrap 5 stil dosyası -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome ikonları için -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Kendi yazdığım stil dosyası -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="bg-dark text-light"> <!-- Sayfa koyu temalı -->
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm sticky-top">
+    <div class="container">
+      <!-- Sol üstte görünen ismim -->
+      <a class="navbar-brand fw-bold" href="index.html">İlhan Dalçek </a><img src="img/profil.jpg" height="55" >
+
+      <!-- Mobilde menü aç/kapa butonu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menü bağlantılarım -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-uppercase">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Hakkımda</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="sehrim.html">Adana</a></li>
+          <li class="nav-item"><a class="nav-link" href="takımımız.html">Takımımız</a></li>
+          <li class="nav-item"><a class="nav-link" href="ilgi.html">İlgi Alanlarım</a></li>
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Giriş</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== Orta Kısım ==================== -->
+  <header class="text-center py-5 bg-secondary bg-opacity-25">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Benim Dünyama Hoş Geldin!</h1>
+      <p class="lead">Sakarya Üniversitesinde Okuyan Bilgisayar Mühendisi Öğrencisi</p>
+      BANA ULAŞMAK İÇİN  <a href="mailto:info@example.com">TIKLAYIN</a><br>
+      <!-- CV Sayfama yönlendiren buton -->
+      <a href="cv.html" class="btn btn-primary btn-lg mt-3">
+        <i class="fas fa-user me-2"></i>CV’mi Gör
+      </a>
+    </div>
+  </header>
+
+  <!-- ==================== HOBİ - ETKİNLİK - AKTİVİTE ==================== -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+
+        <!-- HOBİLER KARTI -->
+        <div class="col-md-4 d-flex">
+          <div class="card bg-dark text-light shadow w-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fas fa-heart me-2 text-warning"></i> Hobilerim
+              </h5>
+              <p class="card-text">
+                Yüzmek, bisiklet sürmek, kitap okumak, seyahat etmek, doğa yürüyüşleri, film izlemek, futbol oynamak, kod yazmak, sinemaya gitmek hobilerim arasındadır.
+              </p><img src="img/futbol.jpg" height="200" width="350">
+            </div>
+          </div>
+        </div>
+
+        <!-- ETKİNLİKLER KARTI -->
+        <div class="col-md-4 d-flex">
+          <div class="card bg-dark text-light shadow w-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fas fa-calendar-check me-2 text-success"></i> Etkinlikler
+              </h5>
+              <p class="card-text" >
+                Müzik konserlerine gitmek,<br>
+                Futbol gibi spor müsabakaları izlemek,<br>
+                Şehirler arası seyahat etmek gibi aktivitiler, yapmaktan hoşlandığım etkinliklerdir.
+              </p><img src="img/konser.jpg" width="350" height="200">
+            </div>
+          </div>
+        </div>
+
+        <!-- SEVDİĞİM AKTİVİTELER KARTI -->
+        <div class="col-md-4 d-flex">
+          <div class="card bg-dark text-light shadow w-100">
+            <div class="card-body">
+              <h5 class="card-title">
+                <i class="fas fa-film me-2 text-info"></i> Sevdiğim Aktiviteler
+              </h5>
+              <p class="card-text">
+                Dizi-film izlemeyi severim.<br>
+                Mobil ve Pc oyunları oynarım ve izlerim.<br>
+                uzak mesafe yürüyüşleri yapmak sevdiğim aktivilerdir.
+              </p><img src="img/gamer.jpg" height="200" width="350">
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-black text-center text-secondary py-3 border-top border-secondary">
+    <small>&copy; 2025 İlhan Dalçek • Tüm Hakları Saklıdır</small>
+  </footer>
+
+  <!-- Bootstrap JS (toggler için gerekli) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
