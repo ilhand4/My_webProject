@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adana - Şehrim</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Stil -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body class="bg-dark text-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">İlhan Dalçek</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Hakkımda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="sehrim.html">Adana</a></li>
+                    <li class="nav-item"><a class="nav-link" href="takımımız.html">Takımımız</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ilgi.html">İlgi Alanlarım</a></li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Giriş</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BAŞLIK -->
+    <header class="text-center my-4">
+        <h1 style="color:rgb(255, 233, 30);">Güneşin Şehri<br></h1><h1 style="color:rgb(30, 34, 255);">ADANA</h1>
+        <p class="text-muted">Memleketim hakkında bilgiler</p>
+    </header>
+
+    <!-- ÜST KISIM: SOLDA BİLGİLER, SAĞDA SLIDER -->
+    <div class="container mb-5">
+        <div class="row">
+            <!-- SOL BİLGİLER -->
+            <div class="col-md-4">
+                <div class="info-box">
+                    <h5><i class="fas fa-users text-info me-2"></i> Nüfus</h5>
+                    <p>
+                        2024 yılı verilerine göre Adana'nın nüfusu 2.280.484 kişidir. Bu nüfusun 1.140.836’sı erkek, 1.139.648’i kadındır.
+                        Kilometrekare başına düşen kişi sayısı 161’dir.
+                    </p>
+                </div>
+                <div class="info-box">
+                    <h5><i class="fas fa-sun text-warning me-2"></i> İklim</h5>
+                    <p>
+                        Akdeniz iklimine sahiptir. Yazlar uzun, çok sıcak ve kurak; kışlar ise ılık ve yağışlı geçer.
+                    </p>
+                </div>
+                <div class="info-box">
+                    <h5><i class="fas fa-map-marked-alt text-success me-2"></i> Gezilecek Yerler</h5>
+                    <ul>
+                        <li>Sabancı Camii</li>
+                        <li>Varda Köprüsü</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h5><i class="fas fa-utensils text-danger me-2"></i> Yemekler</h5>
+                    <p>Adana kebabı, bici bici, şalgam suyu ve daha fazlası ile meşhur bir gastronomi kentidir.</p>
+                </div>
+            </div>
+
+            <!-- SLIDER SAĞDA -->
+            <div class="col-md-8 slider-equal-height">
+                <div id="sliderLinks" class="carousel slide h-100" data-bs-ride="carousel">
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <a href="#yemekler"><img src="img/kebap.jpg" class="d-block w-100 slider-img h-100" alt="Yemekler"></a>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <a href="#camii"><img src="img/sabanci-camii.jpg" class="d-block w-100 slider-img h-100" alt="Camii"></a>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <a href="#taskopru"><img src="img/taskopru.jpg" class="d-block w-100 slider-img h-100" alt="Taşköprü"></a>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <a href="#vardakoprusu"><img src="img/varda.jpg" class="d-block w-100 slider-img h-100" alt="Varda Köprüsü"></a>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#sliderLinks" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#sliderLinks" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- ALTTA DETAYLI BİLGİLENDİRME -->
+            <div class="container content-section">
+                <section id="camii" class="mb-5">
+                    <h2><i class="fas fa-mosque text-primary"></i> Sabancı Camii</h2>
+                    <p>Seyhan Nehri kenarındaki bu devasa cami, Adana'nın modern yüzünü yansıtır. 1998 yılında açılmıştır.</p>
+                </section>
+
+                <section id="taskopru" class="mb-5">
+                    <h2><i class="fas fa-archway text-warning"></i> Taşköprü</h2>
+                    <p>Roma döneminden kalan bu taş köprü hâlâ kullanılmaktadır. Dünyanın en eski köprülerinden biridir.</p>
+                </section>
+
+                <section id="vardakoprusu" class="mb-5">
+                    <h2><i class="fas fa-train text-secondary"></i> Varda Köprüsü</h2>
+                    <p>1912 yılında Almanlar tarafından inşa edilen köprü, Skyfall filmine ev sahipliği yapmıştır.</p>
+                </section>
+
+                <section id="yemekler">
+                    <h2><i class="fas fa-fire text-danger"></i> Adana Kebabı</h2>
+                    <p>Adana'ya özgü, "zırh" adı verilen, satıra benzer bir bıçak ile elde kıyılan parça etten yapılan Türk mutfağında bir kebap veya şiş köfte çeşidi.</p>
+                </section>
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="footer text-center py-3 bg-black text-secondary border-top border-secondary">
+                <small>&copy; 2025 İlhan Dalçek • Tüm Hakları Saklıdır</small>
+            </footer>
+
+            <!-- Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+    </div>
+</body>
+</html>
