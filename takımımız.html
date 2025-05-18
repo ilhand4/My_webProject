@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Takımımız - Adana Demirspor</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <!-- Kendi Stil Dosyam -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-dark text-light">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">İlhan Dalçek</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-uppercase">
+          <li class="nav-item"><a class="nav-link" href="index.html">Hakkımda</a></li>
+          <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="sehrim.html">Adana</a></li>
+          <li class="nav-item"><a class="nav-link active" href="takımımız.html">Takımımız</a></li>
+          <li class="nav-item"><a class="nav-link" href="ilgi.html">İlgi Alanlarım</a></li>
+          <li class="nav-item"><a class="nav-link" href="iletisim.html">İletişim</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Giriş</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- İçerik -->
+  <main class="container py-5">
+    <h1 class="text-center text-primary">Adana Demirspor</h1>
+    <p class="lead text-center">Adana'nın gururu, mavi şimşekler olarak bilinen futbol kulübü.</p>
+    <hr class="my-4" />
+
+    <!-- Kulüp Hakkında -->
+    <section class="section">
+      <h2>🏟️ Kulüp Hakkında</h2>
+      <p>Adana Demirspor, resmî olarak 28 Aralık 1940'ta Adana'da kurulmuş, renkleri mavi-lacivert olan spor kulübüdür. Süper Lig'de mücadele etmektedir.
+         1960 yılında Adana kentinin TFF tarafından organize edilen profesyonel ligde temsil edilen ilk takımıdır.</p>
+    </section>
+
+    <!-- Başarılar -->
+    <section class="section">
+      <h2>🥇 Kulüp Başarıları</h2>
+      <ul>
+        <li>1. Lig Şampiyonluğu (4 Defa)</li>
+        <li>Süper Lig'de bulunduğu sezon (17)</li>
+        <li>UEFA Avrupa Konferans Ligi Ön Elemeleri (2023)</li>
+      </ul>
+    </section>
+
+    <!-- Sol: Teknik Bilgiler -->
+    <section class="section">
+     <h2>📋 Teknik Bilgiler</h2>
+      <div class="row align-items-center mt-3">
+       <div class="col-md-7">
+       <table class="table table-dark table-bordered">
+        <tr><th>Kuruluş</th><td>1940</td></tr>
+        <tr><th>Stadyum</th><td>Yeni Adana Stadyumu</td></tr>
+        <tr><th>Kapasite</th><td>33.543</td></tr>
+        <tr><th>Toplam Piyasa Değeri</th><td>11.65 mil. € </td></tr>
+        <tr><th>En Bilinen Oyuncu</th><td>Mario Balotelli</td></tr>
+      </table>
+
+      <div class="info-box mt-3">
+        <h5>🇹🇷 Türkiye Liglerinde Oynanan Maçlar</h5>
+        <ul class="mb-0">
+          <li><strong>Toplam Maç:</strong> 1.200+</li>
+          <li><strong>Galibiyet:</strong> 510</li>
+          <li><strong>Beraberlik:</strong> 340</li>
+          <li><strong>Mağlubiyet:</strong> 350</li>
+          <li><strong>Efsanevi Maç Skoru:</strong> 5-1 Galatasaray (1988)</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sağ: Logo -->
+    <div class="col-md-5 text-center mt-4 mt-md-0">
+      <img src="img/logo.png" 
+     alt="Adana Demirspor Logo" 
+    class="team-logo-b">
+      <p class="mt-2 text-muted">Adana Demirspor Resmi Logosu</p>
+     </div>
+    </div>
+   </section>
+
+    <!-- Taraftar -->
+    <section class="section">
+      <h2>🎺 Taraftar Grubu</h2>
+      <p>Adana Demirspor’un taraftar grubu “Şimşekler” olarak bilinir. Türkiye’nin en ateşli taraftar gruplarından biridir.</p>
+    </section>
+
+    <!-- Takım Kartı -->
+    <section class="section text-center mt-5">
+  <h2>📸 Taraftar Görseli</h2>
+  <div class="container">
+   <img src="img/adana_demirspor.jpg" 
+     alt="Adana Demirspor Taraftar" 
+     class="taraftar-gorsel">
+    <p class="mt-3 text-muted">Şimşekler Grubu - Yeni Adana Stadyumu</p>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-center text-secondary py-3 border-top border-secondary">
+    <small>&copy; 2025 İlhan Dalçek • Tüm Hakları Saklıdır</small>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
